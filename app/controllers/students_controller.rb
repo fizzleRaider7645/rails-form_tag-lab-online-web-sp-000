@@ -13,6 +13,7 @@ class StudentsController < ApplicationController
   
   def create
     @student = Student.create(params[:student][:first_name])
+    redirect_to 
   end
 
 end
