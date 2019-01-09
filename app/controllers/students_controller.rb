@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   end
   
   def create
-    Student.create(params[:student][:first_name])
+    @student = Student.create(params[:student][:first_name])
   end
 
 end
