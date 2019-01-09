@@ -12,5 +12,6 @@ class StudentsController < ApplicationController
   end
   
   def create
+  end
 
 end
