@@ -28,6 +28,7 @@ gem 'bundler', '~> 1.16', '>= 1.16.1'
 group :development, :test do
   gem 'byebug'
   gem 'spring'
+  gem 'pry'
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'capybara'
